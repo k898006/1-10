@@ -60,3 +60,18 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  .boxes {
+    width: 100%;
+    display: block;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
