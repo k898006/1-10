@@ -10,7 +10,7 @@ header {
 }
 
 .boxes {
-  width: 960px;
+  max-width: 960px;
   margin: 50px auto;
   display: flex;
 }
@@ -68,7 +68,22 @@ footer {
 
   .boxes {
     width: 100%;
+    margin: 50px auto;
     display: block;
+  }
+
+  .box-common {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .boxes {
+    width: 100%;
+    display: block;
+  }
+
+  .box-common:last-child {
+    margin: 20px auto;
   }
 
   footer {
